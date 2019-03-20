@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/simpleFactory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="simpleFactory" />
+    <Button
+        android:id="@+id/factoryMethod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="factoryMethod" />
+    <Button
+        android:id="@+id/abstractFactory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="abstractFactory" />
+    <Button
+        android:id="@+id/singleton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="singleton" />
+    <Button
+        android:id="@+id/builder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="builder" />
+    <Button
+        android:id="@+id/adapter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="adapter" />
+</LinearLayout>
